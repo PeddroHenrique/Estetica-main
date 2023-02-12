@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  body {
-    font-size: 14px;
-}
-.v122_1703 {
+.background-logo-tela-servicos {
   width: 100%;
   height: 150px;
   background: rgba(214,173,96,1);
@@ -13,20 +7,17 @@
   top: 0px;
   left: 0px;
   }
-  .v115_5 {
+  .tela-servicos {
     width: 100%;
     height: 1773px;
-    background: url("../images/v115_5.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: relative;
     top: 0px;
     left: 0px;
     overflow: hidden;
+    overflow-x: scroll; 
   }
-  .v3_2 {
+  .tela-servicos-imagem {
     width: 100%;
     height: 100%;
     background: url("../images/v3_2.png");
@@ -39,7 +30,7 @@
     left: 0px;
     overflow: hidden;
   }
-  .v3_15 {
+  .tela-servicos-mensagem2 {
     width: 100%;
     height: 1024px;
     background: url("../images/v3_15.png");
@@ -52,7 +43,7 @@
     left: 0px;
     overflow: hidden;
   }
-  .v3_22 {
+  .tela-servicos-mensagem2-microblanding   {
     width: 971px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -66,7 +57,7 @@
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .v3_25 {
+  .tela-servicos-mensagem2-microblanding-palavra {
     width: 693px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -78,33 +69,19 @@
     opacity: 1;
     text-align: left;
   }
-  .name {
-    color: #fff;
-  }
-  .v3_27 {
-    width: 140px;
-    background: url("../images/v3_27.png");
-    opacity: 1;
-    position: absolute;
-    top: 99px;
-    left: 1300px;
-    border: 5px solid rgba(0,0,0,1);
-  }
-  .v3_28 {
-    width: 100%;
+
+  .tela-servicos-mensagem2-microblanding-frase {
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 167px;
     left: 212px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+border-radius: 100px;
     overflow: hidden;
   }
-  .v4_7 {
+  .tela-servicos-mensagem2-microagulhamento {
     width: 100%;
     height: 426px;
     background: url("../images/v4_7.png");
@@ -116,21 +93,8 @@
     top: 598px;
     left: 2px;
     overflow: hidden;
-  }
-  .v4_6 {
-    width: 100%;
-    height: 426px;
-    background: url("../images/v4_6.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v3_16 {
+  } 
+  .tela-servicos-mensagem2-microagulhamento-balao {
     width: 971px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -144,7 +108,7 @@
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .v3_17 {
+  .tela-servicos-mensagem2-microagulhamento-palavra {
     width: 443px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -162,25 +126,22 @@
   .name {
     color: #fff;
   }
-  .v3_20 {
-    width: 100%;
+  .tela-servicos-mensagem2-microagulhamento-frase {
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 186px;
     left: 188px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+    border-radius: 100px;
     overflow: hidden;
   }
-  .v3_21 {
+  .balao3 {
     width: 885px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 228px;
+    top: 208px;
     left: 281px;
     font-family: Inter;
     font-weight: Bold;
@@ -188,11 +149,11 @@
     opacity: 1;
     text-align: center;
   }
-  .v3_29 {
+  .balao2 {
     width: 885px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 206px;
+    top: 180px;
     left: 302px;
     font-family: Inter;
     font-weight: Bold;
@@ -200,7 +161,7 @@
     opacity: 1;
     text-align: center;
   }
-  .v3_14 {
+  .tela-servicos-mensagem-pele-de-vidro {
     width: 100%;
     height: 426px;
     background: url("../images/v3_14.png");
@@ -213,7 +174,7 @@
     left: 2px;
     overflow: hidden;
   }
-  .v3_6 {
+  .tela-servicos-mensagem-pele-de-vidro-balao {
     width: 893px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -227,7 +188,7 @@
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .v3_4 {
+  .tela-servicos-mensagem-pele-de-vidro-balao-palavra {
     width: 695px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -239,105 +200,40 @@
     opacity: 1;
     text-align: left;
   }
-  .v3_7 {
-    width: 621px;
+
+  .barra {
+    width: 90px;
     height: 0px;
-    background: url("../images/v3_7.png");
+    background: url("../images/v154_4675.png");
     opacity: 1;
     position: absolute;
-    top: 121px;
-    left: 819px;
-    border: 5px solid rgba(0,0,0,1);
+    top: 89px;
+    left: 917px;
+    border: 2px solid rgba(0,0,0,1);
+    cursor: pointer;
   }
-  .v3_8 {
-    width: 123px;
-    height: 0px;
-    background: url("../images/v3_8.png");
-    opacity: 1;
-    position: absolute;
-    top: 121px;
-    left: 0px;
-    border: 5px solid rgba(0,0,0,1);
-  }
-  .v3_9 {
-    width: 100%;
+  .tela-servicos-mensagem-pele-de-vidro-frase {
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 186px;
     left: 188px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+    border-radius: 100px;
     overflow: hidden;
   }
-  .v3_12 {
+  .balao1 {
     width: 885px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 230px;
+    top: 200px;
     left: 283px;
     font-family: Inter;
     font-weight: Bold;
     font-size: 24px;
     opacity: 1;
     text-align: center;
-  }
-  .v122_1666 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,0.6000000238418579);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .v122_1667 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .v122_1678 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .v133_50 {
-    width: 32px;
-    height: 32px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 21px;
-    left: 1244px;
-  }
-  .v133_51 {
-    width: 32px;
-    height: 32px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 21px;
-    left: 1303px;
-  }
-  .v133_52 {
-    width: 32px;
-    height: 32px;
-    background: rgba(0,0,0,1);
-    opacity: 1;
-    position: absolute;
-    top: 21px;
-    left: 1361px;
   }
   .servicos {
     width: 100px;
@@ -350,8 +246,9 @@
     font-size: 24px;
     opacity: 1;
     text-align: center;
+    cursor: pointer
   }
-  .v122_1669 {
+  .logo-tela-servicos {
     width: 418px;
     height: 105px;
     background: url("../images/v122_1669.png");
@@ -364,34 +261,34 @@
     left: 47px;
     overflow: hidden;
   }
-  .v122_1670 {
+  .estetica {
     width: 418px;
     color: rgba(64,46,50,1);
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 02px;
+    left: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Dancing Script;
     font-weight: Bold;
     font-size: 64px;
     opacity: 1;
     text-align: center;
+    text-decoration: none;
   }
-  .name {
-    color: #fff;
-  }
-  .v122_1672 {
+ 
+  .estetica1 {
     width: 334px;
     color: rgba(64,46,50,1);
     position: absolute;
-    top: 70px;
-    left: 34px;
+    top: 72px;
+    left: 85px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Poppins;
     font-weight: SemiBold;
     font-size: 20px;
     opacity: 1;
     text-align: justified;
+    text-decoration: none;
   }
   .inicio {
     width: 63px;
@@ -404,6 +301,7 @@
     font-size: 24px;
     opacity: 1;
     text-align: center;
+    cursor: pointer
   }
   .precos {
     width: 81px;
@@ -416,6 +314,7 @@
     font-size: 24px;
     opacity: 1;
     text-align: center;
+    cursor: pointer
   }
   .agendar {
     width: 105px;
@@ -428,16 +327,7 @@
     font-size: 24px;
     opacity: 1;
     text-align: center;
-  }
-  .v133_68 {
-    width: 90px;
-    height: 0px;
-    background: url("../images/v133_68.png");
-    opacity: 1;
-    position: absolute;
-    top: 93px;
-    left: 916px;
-    border: 2px solid rgba(0,0,0,1);
+    cursor: pointer
   }
   .face {
     width: 32px;
@@ -452,7 +342,7 @@
     left: 1378px;
     overflow: hidden;
   }
-  .insta {
+  .zap {
     width: 32px;
     height: 32px;
     background: url("../images/v351_42.png");
@@ -465,7 +355,7 @@
     left: 1260px;
     overflow: hidden;
   }
-  .zap {
+  .insta {
     width: 32px;
     height: 32px;
     background: url("../images/v351_43.png");

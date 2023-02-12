@@ -1,9 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
+
 .inicio-tela-preco {
   width: 100%;
   height: 1372px;
@@ -16,6 +11,7 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  overflow-x: scroll; 
 }
 .background-tela-preco {
   width: 100%;
@@ -50,6 +46,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .logo1-tela-preco {
   width: 418px;
@@ -63,19 +60,21 @@ body {
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  text-decoration: none;
 }
 .logo2-tela-preco {
   width: 334px;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 92px;
-  left: 81px;
+  left: 120px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
   font-size: 20px;
   opacity: 1;
   text-align: justified;
+  text-decoration: none;
 }
 .inicio {
   width: 63px;
@@ -88,6 +87,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .precos {
   width: 81px;
@@ -100,6 +100,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .barra {
   width: 90px;
@@ -110,6 +111,7 @@ body {
   top: 89px;
   left: 691px;
   border: 2px solid rgba(0,0,0,1);
+  cursor: pointer;
 }
 .agendar {
   width: 105px;
@@ -122,6 +124,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .face {
   width: 32px;
@@ -136,7 +139,7 @@ body {
   left: 1378px;
   overflow: hidden;
 }
-.insta {
+.zap {
   width: 32px;
   height: 32px;
   background: url("../images/v351_42.png");
@@ -149,7 +152,7 @@ body {
   left: 1260px;
   overflow: hidden;
 }
-.zap {
+.insta {
   width: 32px;
   height: 32px;
   background: url("../images/v351_43.png");
@@ -608,6 +611,7 @@ body {
   font-size: 15px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .tabela3-microblanding {
   width: 165px;
