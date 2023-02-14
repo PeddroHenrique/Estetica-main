@@ -1,34 +1,23 @@
 
 .inicio-tela-preco {
   width: 100%;
-  height: 1372px;
+  height: 100%;
   background: url("../images/v160_18.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-  overflow-x: scroll; 
+  position: absolute;
 }
 .background-tela-preco {
   width: 100%;
-  height: 2000px;
+  height: 100%;
   background: url("../images/v159_173.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 145px;
-  left: 0px;
-  overflow: hidden;
+  position: absolute;                
 }
 .background-logo-tela-preco {
   width: 100%;
-  height: 145px;
+  height: 15%;
   background: rgba(214,173,96,1);
   opacity: 1;
   position: absolute;
@@ -36,7 +25,7 @@
   left: 0px;
 }
 .servicos {
-  width: 100px;
+  width: 5%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 53px;
@@ -49,7 +38,7 @@
   cursor: pointer;
 }
 .logo1-tela-preco {
-  width: 418px;
+  width: 24%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 22px;
@@ -63,11 +52,11 @@
   text-decoration: none;
 }
 .logo2-tela-preco {
-  width: 334px;
+  width: 25%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 92px;
-  left: 120px;
+  left: 10%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
@@ -77,7 +66,7 @@
   text-decoration: none;
 }
 .inicio {
-  width: 63px;
+  width: 5%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 53px;
@@ -90,7 +79,7 @@
   cursor: pointer;
 }
 .precos {
-  width: 81px;
+  width: 5%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 53px;
@@ -103,8 +92,8 @@
   cursor: pointer;
 }
 .barra {
-  width: 90px;
-  height: 0px;
+  width: 6%;
+  height: 0%;
   background: url("../images/v154_4675.png");
   opacity: 1;
   position: absolute;
@@ -114,7 +103,7 @@
   cursor: pointer;
 }
 .agendar {
-  width: 105px;
+  width: 5%;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 53px;
@@ -127,43 +116,47 @@
   cursor: pointer;
 }
 .face {
-  width: 32px;
-  height: 32px;
+  width: 2%;
+  height: 4%;
   background: url("../images/v351_38.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 25px;
-  left: 1378px;
+  top: 2.5%;
+  right: 8%;
   overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
 }
 .zap {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_42.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1260px;
-  overflow: hidden;
-}
-.insta {
-  width: 32px;
-  height: 32px;
+  width: 2%;
+  height: 4%;
   background: url("../images/v351_43.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 25px;
-  left: 1320px;
-  overflow: hidden;
+  top: 2.5%;
+  right: 16%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+}
+.insta {
+  width: 2%;
+  height: 4%;
+  background: url("../images/v351_42.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2.5%;
+  right: 12%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
 }
 .figura-tela-preco {
   width: 392px;
@@ -179,13 +172,13 @@
   overflow: hidden;
 }
 .tabela-precos {
-  width: 937px;
-  height: 467px;
+  width: 60%;
+  height: 50%;
   background: rgba(242,230,232,1);
   opacity: 1;
   position: absolute;
-  top: 441px;
-  left: 271px;
+  top: 20%;
+  left: 18%;
   border: 0px solid rgba(150,150,150,1);
   border-top-left-radius: 26px;
   border-top-right-radius: 26px;
@@ -235,8 +228,8 @@
   background: rgba(34,28,78,1);
   opacity: 0.5;
   position: absolute;
-  top: 823px;
-  left: 339px;
+  top: 63.5%;
+  left: 20.5%;
   border: 0px solid rgba(150,150,150,1);
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -278,8 +271,8 @@
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 834px;
-  left: 382px;
+  top: 64.5%;
+  left: 23.3%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -336,11 +329,11 @@
   overflow: hidden;
 }
 .tabela1-valor {
-  width: 107px;
+  width: 10%;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 481px;
-  left: 317px;
+  top: 22%;
+  left: 20.5%;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 36px;
@@ -348,11 +341,11 @@
   text-align: left;
 }
 .tabela1-frase-direita-valor {
-  width: 103px;
+  width: 10%;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 491px;
-  left: 409px;
+  top: 24%;
+  left: 26.5%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 17px;
@@ -360,7 +353,7 @@
   text-align: left;
 }
 .tabela2-frase1 {
-  width: 272px;
+  width: 10%;
   color: rgba(131,128,153,1);
   position: absolute;
   top: 616px;
@@ -384,11 +377,11 @@
   text-align: left;
 }
 .tabela1-frase1 {
-  width: 211px;
+  width: 10%;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 528px;
-  left: 321px;
+  top: 27%;
+  left: 20.5%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 20px;
@@ -396,11 +389,11 @@
   text-align: left;
 }
 .tabela1-frase2 {
-  width: 175px;
+  width: 10%;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 650px;
-  left: 321px;
+  top: 46%;
+  left: 20.5%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -411,8 +404,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 758px;
-  left: 359px;
+  top: 60%;
+  left: 22%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -423,8 +416,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 708px;
-  left: 356px;
+  top: 54%;
+  left: 22%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -435,8 +428,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 733px;
-  left: 357px;
+  top: 57%;
+  left: 22%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -452,8 +445,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 758px;
-  left: 336px;
+  top: 60%;
+  left: 20.5%;
   overflow: hidden;
 }
 .tabela1-sinal2 {
@@ -465,8 +458,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 736px;
-  left: 336px;
+  top: 57%;
+  left: 20.5%;
   overflow: hidden;
 }
 .tabela2-sinal2 {
@@ -504,8 +497,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 712px;
-  left: 336px;
+  top: 54%;
+  left: 20.5%;
   overflow: hidden;
 }
 .tabela3 {
