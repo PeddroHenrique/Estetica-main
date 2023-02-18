@@ -11,6 +11,16 @@ document.querySelector(".btnagendar5").addEventListener("click", btnagendarFunct
 document.querySelector(".btnconsulta").addEventListener("click", btnagendarFunction);
 document.querySelector(".btnconsulta1").addEventListener("click", btnagendarFunction);
 
+function selecionarPagina(span) {
+  // Remove a classe "selecionado" de todas as spans
+  let spans = document.querySelectorAll(".inicio, .precos, .agendar, .servicos");
+  for (let i = 0; i < spans.length; i++) {
+    spans[i].classList.remove("selecionado");
+  }
+
+  // Adiciona a classe "selecionado" à span clicada
+  span.classList.add("selecionado");
+}
 
 function inicioFunction(){
   window.location.href = "inicio.html";
@@ -30,3 +40,4 @@ function btnagendarFunction(){
 function servicoFunction(){
   window.location.href = "serviços.html";
 }
+

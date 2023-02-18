@@ -1,263 +1,225 @@
 
 .tela-agendar {
-  width: 100%;
-  height: 1366px;
+  width: 200vh;
+  height: 110vh;
   background: rgba(250,235,215,1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -1vh;
+  left: -1vh;
   overflow-x: scroll; 
 }
 .background-tela-agendar {
-  width: 100%;
-  height: 2000px;
+  width: 200vh;
+  height: 90vh;
   background: url("../images/v159_157.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 146px;
-  left: 0px;
+  top: 15vh;
+  left: 0vh;
 }
 .background-logo-tela-agendar {
-  width: 100%;
-  height: 145px;
+  width: 200vh;
+  height: 15vh;
   background: rgba(214,173,96,1);
   opacity: 1;
   position: absolute;
-  top: 1px;
-  left: 0px;
+  top: 0vh;
+  left: 0vh;
 }
 .servicos {
-  width: 100px;
+  width: 10vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 53px;
-  left: 877px;
+  top: 5.5vh;
+  left: 93.7vh;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 24px;
+  font-size: 2.5vh;
   opacity: 1;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .estetica {
-  width: 418px;
+  width: 40vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 22px;
-  left: 47px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 1vh;
+  left: 2vh;
+  text-shadow: 0vh 0.4vh 0.6vh rgba(0, 0, 0, 0.25);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 64px;
+  font-size: 6.5vh;
   opacity: 1;
   text-align: center;
   text-decoration: none;
 }
 .estetica1 {
-  width: 334px;
+  width: 18vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 92px;
-  left: 120px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 7.2vh;
+  left: 9vh;
+  text-shadow: 0vh 0.3vh 0.4vh rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
-  font-size: 20px;
+  font-size: 2vh;
   opacity: 1;
   text-align: justified;
   text-decoration: none;
 }
 .inicio {
-  width: 63px;
+  width: 8vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 53px;
-  left: 581px;
+  top: 5.4vh;
+  left: 63vh;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 24px;
+  font-size: 2.5vh;
   opacity: 1;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .precos {
-  width: 81px;
+  width: 8vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 53px;
-  left: 665px;
+  top: 5.4vh;
+  left: 72vh;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 24px;
+  font-size: 2.5vh;
   opacity: 1;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .agendar {
-  width: 105px;
+  width: 8vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 53px;
-  left: 759px;
+  top: 5.4vh;
+  left: 81.6vh;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 24px;
+  font-size: 2.5vh  ;
   opacity: 1;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .figura-tela-agendar {
-  width: 392px;
-  height: 581px;
+  width: 45vh;
+  height: 70vh;
   background: url("../images/v152_4674.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 783px;
-  left: 10px;
+  top: 30vh;
+  left: 0vh;
   overflow: hidden;
 }
 .tela-agendar-meio {
 position: absolute;
-left: 355px;
-top: 400px;
-width: 1300px;
-height: 467px;
+left: 40vh;
+top: 40vh;
+width: 130vh;
+height: 50vh;
 background: rgba(242,230,232,1);
 opacity: 1;
 position: relative;
-border: 0px solid rgba(150,150,150,1);
-border-top-left-radius: 26px;
-border-top-right-radius: 26px;
-border-bottom-left-radius: 26px;
-border-bottom-right-radius: 26px;
+border: 0vh solid rgba(150,150,150,1);
+border-top-left-radius: 3vh;
+border-top-right-radius: 3vh;
+border-bottom-left-radius: 3vh;
+border-bottom-right-radius: 3vh;
 overflow: hidden;
-box-shadow: 30px 30px 10px #40387980;
+box-shadow: 3vh 3vh 1vh #40387980;
 }
 .tela-agendar-meio-frase {
   position: absolute;
-  width: 559px;
-  height: 76px;
-  left: 730px;
-  top: 459px;
+  width: 50vh;
+  height: 0vh;
+  left: 78vh;
+  top: 47vh;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 38px;
+  font-size: 2.5vh;
+  line-height: 4vh;
   text-align: center;
-  text-shadow: 0px 10px 20px #000000;
+  text-shadow: 1vh 1vh 2vh #40387980;
   color: #FFFFFF;
 }
 
 .zap {
-  width: 161px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v340_129.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 1250px;
+  top: 64vh;
+  left: 130vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
-}
-.face1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1378px;
-  overflow: hidden;
-}
-.zap1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_42.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1260px;
-  overflow: hidden;
-}
-.insta1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1320px;
-  overflow: hidden;
+  box-shadow: 1vh 1vh 1vh #40387980;
+  border-radius: 10vh;
 }
 .insta{
-  width: 160px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v341_19.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 988px;
+  top: 64vh;
+  left: 100vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
+  box-shadow: 1vh 1vh 1vh #40387980;
+  border-radius: 10vh;
 }
 .face{
-  width: 160px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v351_38.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 700px;
+  top: 64vh;
+  left: 70vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
+  box-shadow: 1vh 1vh 1vb #40387980;
+  border-radius: 10vh;
 }
 
-.barra {
+.frase {
   position: absolute;
-  height: 76px;
-  width: 860px;
-  left: 589px;
-  top: 459px;
-  border-radius: 24px;    
+  height: 8vh;
+  width: 90vh;
+  left: 57vh;
+  top: 47vh;   
   background: #BB6BD9;
-  border-radius: 24px;
+  border-radius: 2vh;
+  box-shadow: 1vh 1vh 2vh #40387980;
 }
 .barra {
-  width: 90px;
-  height: 0px;
-  background: url("../images/v133_68.png");
+  width: 10.8vh;
+  height: 0vh;
+  background: url("../images/v154_4675.png");
   opacity: 1;
   position: absolute;
-  top: 89px;
-  left: 766px;
-  border: 2px solid rgba(0,0,0,1);
+  top: 9vh;
+  left: 81.5vh;
+  border: 0.3vh solid rgba(0,0,0,1);
+  cursor: pointer;
 }

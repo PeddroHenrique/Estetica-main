@@ -1,44 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
 
 .inicio-tela-preco {
-  width: 100%;
-  height: 100%;
-  background: url("../images/v160_18.png");
-  background-position: center;
-  background-size: cover;
-  position: absolute;
+  position: relative;
+  height: 100vh;
 }
 .background-tela-preco {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../images/v159_173.png");
-  background-position: center;
+  background-image: url('../images/v159_155.png');
   background-size: cover;
-  position: absolute;                
+  background-position: center;
 }
-.background-logo-tela-preco {
-  width: 100%;
-  height: 15%;
-  background: rgba(214,173,96,1);
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  left: 0px;
-}
-.servicos {
-  width: 5%;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 911px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
+
 .logo1-tela-preco {
-  width: 24%;
+  width: 40vh;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 22px;
@@ -47,16 +27,15 @@
   font-family: Dancing Script;
   font-weight: Bold;
   font-size: 64px;
-  opacity: 1;
   text-align: center;
   text-decoration: none;
 }
 .logo2-tela-preco {
-  width: 25%;
+  width: 334vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 92px;
-  left: 10%;
+  top: 10vh;
+  left: 16vh;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
@@ -65,98 +44,72 @@
   text-align: justified;
   text-decoration: none;
 }
-.inicio {
-  width: 5%;
+
+.inicio,
+.precos,
+.agendar,
+.servicos {
+  display: inline;
+  position: relative;
+  top: 4vh;
+  left: 105vh;
+  font-size: 1.5rem;
   color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 615px;
   font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
+  font-weight: bold;
   text-align: center;
+  margin-right: 2rem;
   cursor: pointer;
 }
-.precos {
-  width: 5%;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 699px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
+
 .barra {
-  width: 6%;
-  height: 0%;
-  background: url("../images/v154_4675.png");
-  opacity: 1;
+  width: 90px;
+  height: 0px;
   position: absolute;
   top: 89px;
   left: 691px;
   border: 2px solid rgba(0,0,0,1);
   cursor: pointer;
 }
-.agendar {
-  width: 5%;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 793px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
+
 .face {
-  width: 2%;
-  height: 4%;
+  width: 32px;
+  height: 32px;
   background: url("../images/v351_38.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2.5%;
-  right: 8%;
+  top: 25px;
+  left: 1378px;
   overflow: hidden;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 100%;
 }
 .zap {
-  width: 2%;
-  height: 4%;
-  background: url("../images/v351_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2.5%;
-  right: 16%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 100%;
-}
-.insta {
-  width: 2%;
-  height: 4%;
+  width: 32px;
+  height: 32px;
   background: url("../images/v351_42.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2.5%;
-  right: 12%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 100%;
+  top: 25px;
+  left: 1260px;
+  overflow: hidden;
+}
+.insta {
+  width: 32px;
+  height: 32px;
+  background: url("../images/v351_43.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1320px;
+  overflow: hidden;
 }
 .figura-tela-preco {
   width: 392px;
@@ -172,13 +125,13 @@
   overflow: hidden;
 }
 .tabela-precos {
-  width: 60%;
-  height: 50%;
+  width: 937px;
+  height: 467px;
   background: rgba(242,230,232,1);
   opacity: 1;
   position: absolute;
-  top: 20%;
-  left: 18%;
+  top: 441px;
+  left: 271px;
   border: 0px solid rgba(150,150,150,1);
   border-top-left-radius: 26px;
   border-top-right-radius: 26px;
@@ -228,8 +181,8 @@
   background: rgba(34,28,78,1);
   opacity: 0.5;
   position: absolute;
-  top: 63.5%;
-  left: 20.5%;
+  top: 823px;
+  left: 339px;
   border: 0px solid rgba(150,150,150,1);
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -271,8 +224,8 @@
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 64.5%;
-  left: 23.3%;
+  top: 834px;
+  left: 382px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -329,11 +282,11 @@
   overflow: hidden;
 }
 .tabela1-valor {
-  width: 10%;
+  width: 107px;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 22%;
-  left: 20.5%;
+  top: 481px;
+  left: 317px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 36px;
@@ -341,11 +294,11 @@
   text-align: left;
 }
 .tabela1-frase-direita-valor {
-  width: 10%;
+  width: 103px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 24%;
-  left: 26.5%;
+  top: 491px;
+  left: 409px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 17px;
@@ -353,7 +306,7 @@
   text-align: left;
 }
 .tabela2-frase1 {
-  width: 10%;
+  width: 272px;
   color: rgba(131,128,153,1);
   position: absolute;
   top: 616px;
@@ -377,11 +330,11 @@
   text-align: left;
 }
 .tabela1-frase1 {
-  width: 10%;
+  width: 211px;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 27%;
-  left: 20.5%;
+  top: 528px;
+  left: 321px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 20px;
@@ -389,11 +342,11 @@
   text-align: left;
 }
 .tabela1-frase2 {
-  width: 10%;
+  width: 175px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 46%;
-  left: 20.5%;
+  top: 650px;
+  left: 321px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -404,8 +357,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 60%;
-  left: 22%;
+  top: 758px;
+  left: 359px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -416,8 +369,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 54%;
-  left: 22%;
+  top: 708px;
+  left: 356px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -428,8 +381,8 @@
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 57%;
-  left: 22%;
+  top: 733px;
+  left: 357px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 15px;
@@ -445,8 +398,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 60%;
-  left: 20.5%;
+  top: 758px;
+  left: 336px;
   overflow: hidden;
 }
 .tabela1-sinal2 {
@@ -458,8 +411,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 57%;
-  left: 20.5%;
+  top: 736px;
+  left: 336px;
   overflow: hidden;
 }
 .tabela2-sinal2 {
@@ -497,8 +450,8 @@
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 54%;
-  left: 20.5%;
+  top: 712px;
+  left: 336px;
   overflow: hidden;
 }
 .tabela3 {
@@ -680,4 +633,57 @@
   top: 714px;
   left: 908px;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  /* Ajuste de layout para telas menores */
+  .inicio-tela-preco {
+    padding: 20px;
+  }
+  .tabela-precos {
+    margin: 20px 0;
+  }
+  /* Alterações no tamanho de fonte para telas menores */
+  .servicos {
+    font-size: 24px;
+  }
+  .logo1-tela-preco {
+    font-size: 36px;
+  }
+  .logo2-tela-preco {
+    font-size: 24px;
+  }
+  .inicio,
+  .precos,
+  .agendar {
+    font-size: 18px;
+  }
+  .tabela1-valor,
+  .tabela2-valor,
+  .tabela3-valor {
+    font-size: 24px;
+  }
+  .tabela1-frase-direita-valor,
+  .tabela2-frase-direita-valor,
+  .tabela3-frase-direita-valor {
+    font-size: 16px;
+  }
+  .tabela1-frase1,
+  .tabela2-frase1,
+  .tabela3-frase1,
+  .tabela1-frase2,
+  .tabela2-frase2,
+  .tabela3-frase2 {
+    font-size: 14px;
+  }
+  .tabela1-pele-de-vidro,
+  .tabela1-microblanding,
+  .tabela1-microagulhamento,
+  .tabela2-microblanding,
+  .tabela2-microagulhamento,
+  .tabela2-pele-de-vidro,
+  .tabela3-microblanding,
+  .tabela3-microagulhamento,
+  .tabela3-pele-de-vidro {
+    font-size: 20px;
+  }
 }
